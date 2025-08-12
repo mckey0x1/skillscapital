@@ -16,7 +16,7 @@ export default function Footer() {
           <h3 className="text-xl font-semibold">
             Signup for latest news and insights from SkillsCapital
           </h3>
-          <form className="flex w-full md:w-auto overflow-hidden">
+          <form className="flex flex-col gap-2 items-center sm:gap-0 sm:flex-row w-full md:w-auto overflow-hidden">
             <div className="flex relative items-center px-3 text-gray-500">
               <Mail size={18} className="absolute left-6" />
 
@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <button
               type="submit"
-              className="bg-yellow-300 text-gray-900 font-semibold px-6 py-2 rounded-full">
+              className="bg-yellow-300 w-[150px] text-gray-900 font-semibold px-6 py-2 rounded-full">
               Subscribe
             </button>
           </form>
@@ -124,7 +124,7 @@ export default function Footer() {
       <div className="bg-yellow-300 text-gray-900 text-sm">
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-3">
           <p>Copyright © 2025 All Rights Reserved.</p>
-          <div className="flex gap-6">
+          <div className="flex gap-6 sm:text-base text-xs">
             <a href="#">Privacy policy</a>
             <a href="#">Legal notice</a>
             <a href="#">Terms of service</a>

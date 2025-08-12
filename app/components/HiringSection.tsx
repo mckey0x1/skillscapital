@@ -15,10 +15,10 @@ export default function HiringSection() {
           </p>
 
           <div className="mt-8 flex items-center gap-6">
-            <button className="bg-yellow-300 text-gray-900 font-semibold px-6 py-3 rounded-full shadow">
+            <button className="bg-yellow-300 text-gray-900 text-xs sm:text-sm font-semibold px-6 py-3 rounded-full shadow">
               Request Full Profiles
             </button>
-            <button className="flex items-center gap-2 text-white hover:underline">
+            <button className="flex items-center gap-2 text-xs sm:text-sm text-white hover:underline">
               Schedule a Call <ArrowRight size={18} />
             </button>
           </div>

@@ -19,7 +19,7 @@ These components are then **combined** in the main `Home` component to create th
 ## 🚀 How to Run
 ```bash
 # Clone repository
-git clone https://github.com/your-username/skillscapital.git
+git clone https://github.com/mckey0x1/skillscapital.git
 
 # Go to project directory
 cd skillscapital

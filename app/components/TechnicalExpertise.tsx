@@ -112,7 +112,7 @@ whitespace-nowrap
                 <span className="flex items-center justify-center h-8 w-8 rounded-full bg-blue-500 text-white font-bold mr-4">
                   {index + 1}
                 </span>
-                <span className="text-black font-medium">{item}</span>
+                <span className="text-black font-medium text-xs sm:text-base">{item}</span>
               </div>
             ))}
           </div>
