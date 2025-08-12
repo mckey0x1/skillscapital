@@ -14,7 +14,6 @@ These components are then **combined** in the main `Home` component to create th
 - Predefined gradients, colors, and spacing for brand consistency.
 
 ### **Responsive Design Features**
-- **Horizontal to Vertical Transformation** – Example: Certifications section changes layout for small devices.
 - **Adaptive Text Sizes & Gaps** – Typography and spacing adjust according to screen size.
 
 ## 🚀 How to Run
